@@ -1,16 +1,8 @@
-body {
-  padding-top: 50px;
-  padding-left: 100px;
+#chart {
+  display: flex;
+  background-color: lightgray;
 }
 
-#chartArea {
-  width: 400px;
-  height: 300px;
-  background-color: #CCC;
-}
-
-.bar {
-  display: inline-block;
-  margin-right: 2px;
-  fill: teal;
+svg {
+  background-color: lightblue;
 }

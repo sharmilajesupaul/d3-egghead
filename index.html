@@ -12,7 +12,15 @@
 </head>
 
 <body>
-  <div id="chartArea"></div>
+  <div style="padding-bottom: 1em">
+    <button onclick="resizeSVG(400, 400)">SVG 400x400</button>
+    <button onclick="resizeSVG(600, 600)">SVG 600x600</button>
+  </div>
+  <div id="chart"></div>
+  <!-- Scripts -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.min.js"></script>
   <script src="app.js"></script>
 </body>
 
